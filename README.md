@@ -4,6 +4,11 @@ DistilBERT-based NoSQL Injection Payload Detection Model
 
 - The model is implemented in Python, and it can be used with any NoSQL database. The repo also includes a Jupyter notebook that demonstrates how to use the model.
 
+## Model on 🤗
+![🤗](https://github.com/ankush-003/NoSQLi-Detector/assets/94037471/0e970e4a-14b3-414a-8065-116b1673949b)
+
+- [Visit 🤗](https://huggingface.co/ankush-003/nosqli_identifier)
+
 ## Gradio App on 🤗Spaces
 <a href = "https://huggingface.co/spaces/ankush-003/ankush-003-nosqli_identifier" >![image](https://github.com/ankush-003/NoSQLi-Detector/assets/94037471/afde1295-9c5e-4748-8a79-1cec9a3a0ade)</a>
 
