@@ -1,0 +1,2 @@
+eval_loss,eval_accuracy,eval_precision,eval_recall,eval_f1,eval_runtime,eval_samples_per_second,eval_steps_per_second,model_name
+4.5895571787468725e-08,1.0,1.0,1.0,1.0,3.6193,276.296,34.537,distil-bert
